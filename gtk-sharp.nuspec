@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
-		  <id>GtkSharp</id>
-      <version>2.12.0.0</version>
-      <title>GtkSharp</title>
-      <authors>Javier Suárez Ruiz</authors>
-		  <owners>Microsoft</owners>
-		  <licenseUrl>https://www.xamarin.com</licenseUrl>
-      <projectUrl>https://github.com/jsuarezruiz/gtk-sharp-nuget</projectUrl>
-		  <iconUrl>https://www.xamarin.com/content/images/nuget/xamarin.png</iconUrl>
-		  <requireLicenseAcceptance>false</requireLicenseAcceptance>
-      <description>Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME libraries. Gtk# is free software, licensed under the GNU LGPL.</description>
-      <summary>Gtk 2.12 C# Bindings.</summary>
-      <releaseNotes></releaseNotes>
-      <copyright>Copyright 2018</copyright>
-      <language>en-US</language>    
-		  <tags>mono dotnet gtk</tags>
+        <id>GtkSharp</id>
+        <version>2.12.0.0</version>
+        <title>GtkSharp</title>
+        <authors>Javier Suárez Ruiz</authors>
+        <owners>Microsoft</owners>
+        <licenseUrl>https://www.xamarin.com</licenseUrl>
+        <projectUrl>https://github.com/jsuarezruiz/gtk-sharp-nuget</projectUrl>
+        <iconUrl>https://www.xamarin.com/content/images/nuget/xamarin.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Gtk# is a .NET language binding for the GTK+ toolkit and assorted GNOME libraries. Gtk# is free software, licensed under the GNU LGPL.</description>
+        <summary>Gtk 2.12 C# Bindings.</summary>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright 2018</copyright>
+        <language>en-US</language>    
+        <tags>mono dotnet gtk</tags>
     </metadata>
     <files>
-		  <!-- gtk-sharp -->
-		  <file src="gtk-sharp-2.0/atk-sharp.dll" target="lib/net45/atk-sharp.dll" />
-		  <file src="gtk-sharp-2.0/gdk-sharp.dll" target="lib/net45/gdk-sharp.dll" />
-		  <file src="gtk-sharp-2.0/glade-sharp.dll" target="lib/net45/glade-sharp.dll" />
-		  <file src="gtk-sharp-2.0/glib-sharp.dll" target="lib/net45/glib-sharp.dll" />
-		  <file src="gtk-sharp-2.0/gtk-dotnet.dll" target="lib/net45/gtk-dotnet.dll" />
-		  <file src="gtk-sharp-2.0/gtk-sharp.dll" target="lib/net45/gtk-sharp.dll" />
-		  <file src="gtk-sharp-2.0/pango-sharp.dll" target="lib/net45/pango-sharp.dll" />
-		  <file src="Mono.Cairo/Mono.Cairo.dll" target="lib/net45/Mono.Cairo.dll" />
-		  <file src="Mono.Posix/Mono.Posix.dll" target="lib/net45/Mono.Posix.dll" />
+        <!-- gtk-sharp -->
+        <file src="gtk-sharp-2.0/atk-sharp.dll" target="lib/net45/atk-sharp.dll" />
+	<file src="gtk-sharp-2.0/gdk-sharp.dll" target="lib/net45/gdk-sharp.dll" />
+	<file src="gtk-sharp-2.0/glade-sharp.dll" target="lib/net45/glade-sharp.dll" />
+	<file src="gtk-sharp-2.0/glib-sharp.dll" target="lib/net45/glib-sharp.dll" />
+	<file src="gtk-sharp-2.0/gtk-dotnet.dll" target="lib/net45/gtk-dotnet.dll" />
+	<file src="gtk-sharp-2.0/gtk-sharp.dll" target="lib/net45/gtk-sharp.dll" />
+	<file src="gtk-sharp-2.0/pango-sharp.dll" target="lib/net45/pango-sharp.dll" />
+	<file src="Mono.Cairo/Mono.Cairo.dll" target="lib/net45/Mono.Cairo.dll" />
+	<file src="Mono.Posix/Mono.Posix.dll" target="lib/net45/Mono.Posix.dll" />
     </files>
 </package>
