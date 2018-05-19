@@ -20,13 +20,24 @@
     <files>
         <!-- gtk-sharp -->
         <file src="gtk-sharp-2.0/atk-sharp.dll" target="lib/net45/atk-sharp.dll" />
-	<file src="gtk-sharp-2.0/gdk-sharp.dll" target="lib/net45/gdk-sharp.dll" />
-	<file src="gtk-sharp-2.0/glade-sharp.dll" target="lib/net45/glade-sharp.dll" />
-	<file src="gtk-sharp-2.0/glib-sharp.dll" target="lib/net45/glib-sharp.dll" />
-	<file src="gtk-sharp-2.0/gtk-dotnet.dll" target="lib/net45/gtk-dotnet.dll" />
-	<file src="gtk-sharp-2.0/gtk-sharp.dll" target="lib/net45/gtk-sharp.dll" />
-	<file src="gtk-sharp-2.0/pango-sharp.dll" target="lib/net45/pango-sharp.dll" />
-	<file src="Mono.Cairo/Mono.Cairo.dll" target="lib/net45/Mono.Cairo.dll" />
-	<file src="Mono.Posix/Mono.Posix.dll" target="lib/net45/Mono.Posix.dll" />
+		<file src="configs/atk-sharp.dll.config" target="build/net45/atk-sharp.dll.config" />
+		<file src="gtk-sharp-2.0/gdk-sharp.dll" target="lib/net45/gdk-sharp.dll" />
+		<file src="configs/gdk-sharp.dll.config" target="build/net45/gdk-sharp.dll.config" />
+		<file src="gtk-sharp-2.0/glade-sharp.dll" target="lib/net45/glade-sharp.dll" />
+		<file src="configs/glade-sharp.dll.config" target="build/net45/glade-sharp.dll.config" />
+		<file src="gtk-sharp-2.0/glib-sharp.dll" target="lib/net45/glib-sharp.dll" />
+		<file src="configs/glib-sharp.dll.config" target="build/net45/glib-sharp.dll.config" />
+		<file src="gtk-sharp-2.0/gtk-dotnet.dll" target="lib/net45/gtk-dotnet.dll" />
+		<file src="configs/gtk-dotnet.dll.config" target="build/net45/gtk-dotnet.dll.config" />
+		<file src="gtk-sharp-2.0/gtk-sharp.dll" target="lib/net45/gtk-sharp.dll" />
+		<file src="configs/gtk-sharp.dll.config" target="build/net45/gtk-sharp.dll.config" />
+		<file src="gtk-sharp-2.0/pango-sharp.dll" target="lib/net45/pango-sharp.dll" />
+		<file src="configs/pango-sharp.dll.config" target="build/net45/pango-sharp.dll.config" />
+		<file src="Mono.Cairo/Mono.Cairo.dll" target="lib/net45/Mono.Cairo.dll" />
+		<file src="configs/Mono.Cairo.dll.config" target="build/net45/Mono.Cairo.dll.config" />
+		<file src="Mono.Posix/Mono.Posix.dll" target="lib/net45/Mono.Posix.dll" />   
+		<file src="configs/Mono.Posix.dll.config" target="build/net45/Mono.Posix.dll.config" />		
+        <!-- targets -->
+		<file src="gtk-sharp.targets" target="build/gtk-sharp.targets" />
     </files>
 </package>
